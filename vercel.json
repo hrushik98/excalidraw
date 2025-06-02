@@ -65,7 +65,8 @@
       "destination": "https://marketplace.visualstudio.com/items?itemName=pomdtr.excalidraw-editor"
     }
   ],
-  "outputDirectory": "excalidraw-app/build",
+  "rootDirectory": "excalidraw-app",
+  "buildCommand": "yarn build",
   "installCommand": "yarn install",
-  "buildCommand": "yarn --cwd ./excalidraw-app build"
+  "outputDirectory": "build"
 }
